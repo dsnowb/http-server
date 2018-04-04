@@ -2,14 +2,14 @@
 
 ## GET Endpoints
 
-###/
+### /
 Returns the contents of index.html
 
-###/cowsay
+### /cowsay
 Returns the contents of cowsay.html
 This is a 'descriptive' page
 
-###/cow?msg=VALUE
+### /cow?msg=VALUE
 Displays a koala saying VALUE.
 if VALUE includes spaces, VALUE must be enclosed in quotes
 
@@ -30,7 +30,7 @@ Response Body:
 
 ## POST Endpoints
 
-###/cow?msg=VALUE
+### /cow?msg=VALUE
 Returns a JSON object. The key is "content", and the value is VALUE passed through cowpy's LukeKoala.milk method.
 
 #### Example
