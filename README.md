@@ -18,6 +18,7 @@ Endpoint:
 /cow?msg="Things"
 
 Response Body:
+``` 
 < Things >
  -------- 
   \
@@ -27,7 +28,7 @@ Response Body:
       ( Y )
      ()~*~()   
      (_)-(_)
-
+```
 ## POST Endpoints
 
 ### /cow?msg=VALUE
