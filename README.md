@@ -32,11 +32,13 @@ Response Body:
 ## POST Endpoints
 
 ### /cow?msg=VALUE
-Returns a JSON object. The key is "content", and the value is VALUE passed through cowpy's LukeKoala.milk method.
+Returns JSON. The key is "content", and the value is VALUE passed through cowpy's LukeKoala.milk method.
 
 #### Example
 Endpoint:
 /cow?msg="Things"
 
 Response Body:
+```
 {"content": " ________ \n< Things >\n -------- \n  \\\n   \\          .\n       ___   //\n     {~._.~}// \n      ( Y )K/  \n     ()~*~()   \n     (_)-(_)   \n     Luke    \n     Sywalker\n     koala"}
+```
